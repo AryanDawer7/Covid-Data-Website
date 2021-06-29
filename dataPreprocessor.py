@@ -21,9 +21,9 @@ def makeExcelFile(status, multipleOf):
 
 
 
-CONFIRMED = "/Users/aryandawer7/Desktop/schoolCsProject/confirmed.xlsx"
-RECOVERED = "/Users/aryandawer7/Desktop/schoolCsProject/recovered.xlsx"
-DECEASED = "/Users/aryandawer7/Desktop/schoolCsProject/deceased.xlsx"
+CONFIRMED = "confirmed.xlsx"
+RECOVERED = "recovered.xlsx"
+DECEASED = "deceased.xlsx"
 
 makeExcelFile(CONFIRMED, 1)
 makeExcelFile(RECOVERED, 2)
