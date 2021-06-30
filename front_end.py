@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(layout="wide")
+
 raw_data = st.beta_container()
 confirmed = st.beta_container()
 recovered = st.beta_container()
