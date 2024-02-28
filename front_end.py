@@ -13,7 +13,7 @@ footer = st.beta_container()
 
 with raw_data:
     st.markdown("<h1 style='text-align: center;'>COVID-19 Daily State Wise Data</h1>", unsafe_allow_html=True)
-    st.text("We update this data on a daily basis with help of API provided by https://www.covid19india.org")
+    st.text("Data provided by https://www.covid19india.org")
 
     data_r = pd.read_csv("state_wise_daily.csv")
     st.write(data_r)
